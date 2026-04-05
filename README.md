@@ -23,12 +23,17 @@ Genera documentación profesional de entrega de proyectos para handoff a cliente
 ## Instalación
 
 ```bash
-# 1. Copiar la skill a tu directorio de skills de Claude Code
-cp SKILL.md ~/.claude/skills/documentacion/SKILL.md
+# 1. Copiar la skill al directorio de comandos de Claude Code
+mkdir -p ~/.claude/commands
+cp SKILL.md ~/.claude/commands/documentacion.md
 
 # 2. Instalar dependencia de Python
 pip install python-docx
+
+# 3. Reiniciar Claude Code para que cargue el nuevo comando
 ```
+
+> **Nota:** La carpeta correcta es `~/.claude/commands/`. Cualquier archivo `.md` en esa carpeta queda disponible como `/nombre-del-archivo` en todos tus proyectos de Claude Code.
 
 ---
 
