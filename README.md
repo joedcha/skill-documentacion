@@ -3,7 +3,6 @@
 Genera documentación profesional de entrega de proyectos para handoff a clientes. Detecta automáticamente el stack tecnológico y produce 5 documentos `.docx` con diseño profesional.
 
 **Versión:** 2.0.0  
-**Basado en:** [santmun/docs-entrega-skill](https://github.com/santmun/docs-entrega-skill) v1.0.0
 
 ---
 
